@@ -12,7 +12,15 @@ Nanolobby is a C# application designed to simplify the process of creating and m
 - Error logs
 - Easy and user friendly interface
 
-  ## Usage
+##
+
+### Usage
+1. Open the application
+2. Add bots or just choose the empty option
+3. Adjust the difficulties of the bot, change their positions **Make sure you are not using any duplicate lanes, or else the bots will just leave afk in fountain, do not use the same bot twice in your team.**
+4. Press the create button or you can just press ENTER key when you are done.
+###
+
 
   ### Prerequisites
 
