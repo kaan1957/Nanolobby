@@ -26,7 +26,8 @@ Nanolobby is a C# application designed to simplify the process of creating and m
 
 - Visual Studio
 - .NET Framework
-### Installation
+  
+### Installation (advanced)
 
 1. Clone the repository:
    ```sh
