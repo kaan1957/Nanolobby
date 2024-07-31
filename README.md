@@ -32,4 +32,7 @@ Nanolobby is a C# application designed to simplify the process of creating and m
 1. Clone the repository:
    ```sh
    git clone https://github.com/kaan1957/Nanolobby
+###
+
+Please report any issues you find and I'll try my best to help.
 
