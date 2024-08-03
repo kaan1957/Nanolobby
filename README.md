@@ -24,7 +24,7 @@ Nanolobby is a C# application designed to simplify the process of creating and m
 
   ### Prerequisites
 
-- Visual Studio
+- Visual Studio (if you are looking to use this project in one of your own projects)
 - .NET Framework
   
 ### Installation (advanced)
