@@ -187,7 +187,7 @@ namespace WindowsFormsApp1
             var champions = new List<Champion>
             {
                 new Champion { championId = 0,  Name = "Empty" },
-                new Champion { championId = 84, position="MIDDLE", Name = "Akali" },
+                new Champion { championId = 84, position="MIDDLE", Name = "Akali" }, // I kinda gave up on the idea of finding recommended bot lanes post calls but this is unused btw. This is just for future devs. My advice is that you just set their normal positions so when you add them it picks the position of that bot
                 new Champion { championId = 103, position="MIDDLE", Name = "Ahri" },
                 new Champion { championId = 12, position="UTILITY", Name = "Alistar" },
                 new Champion { championId = 32, position="JUNGLE", Name = "Amumu" },
