@@ -264,7 +264,7 @@ namespace WindowsFormsApp1
         {
             var data = new
             {
-                botDifficulty = botDifficulty, // Corrected parameter name
+                botDifficulty = botDifficulty,
                 championId = championId,
                 teamId = teamId.ToString(),
                 position = position
