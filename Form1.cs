@@ -296,7 +296,7 @@ namespace WindowsFormsApp1
         private Champion GetBotFromComboBox(ComboBox comboBox)
         {
             var selectedChampion = comboBox.SelectedItem as Champion;
-            if (selectedChampion != null && selectedChampion.championId == 0) // Check for Empty value
+            if (selectedChampion != null && selectedChampion.championId == 0)
             {
                 return null;
             }
@@ -324,6 +324,8 @@ namespace WindowsFormsApp1
         {
             var api = await LeagueClientApi.ConnectAsync();
 
+            // Don't change anything below this line 
+            
             string request = @"{
                 customGameLobby: {
                     configuration: {
@@ -385,9 +387,9 @@ namespace WindowsFormsApp1
                 if (bot == null) continue; // Skip if no bot selected
                 var position = positionComboboxes[i].SelectedItem.ToString();
                 var botDifficulty = difficultyComboboxes[i].SelectedItem.ToString();
-                if (string.IsNullOrEmpty(position)) position = bot.position; // Use default if no position selected
+                if (string.IsNullOrEmpty(position)) position = bot.position; 
                 int teamId = (i < 4) ? 100 : 200;
-                await AddBot(api, teamId, bot.championId, position, botDifficulty); // Pass botDifficulty
+                await AddBot(api, teamId, bot.championId, position, botDifficulty); 
                 usedBots.Add(bot.championId);
             }
         }
