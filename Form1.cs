@@ -384,7 +384,7 @@ namespace WindowsFormsApp1
             for (int i = 0; i < botComboboxes.Length; i++)
             {
                 var bot = GetBotFromComboBox(botComboboxes[i]);
-                if (bot == null) continue; // Skip if no bot selected
+                if (bot == null) continue; 
                 var position = positionComboboxes[i].SelectedItem.ToString();
                 var botDifficulty = difficultyComboboxes[i].SelectedItem.ToString();
                 if (string.IsNullOrEmpty(position)) position = bot.position; 
