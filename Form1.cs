@@ -30,13 +30,6 @@ namespace WindowsFormsApp1
             public string position { get; set; }
         }
 
-        public class BotSettings // UNUSED
-        {
-            public int championId { get; set; }
-            public string Difficulty { get; set; }
-            public string Lane { get; set; }
-        }
-
         public class BotLayout
         {
             public int championId { get; set; }
